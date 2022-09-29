@@ -1,0 +1,15 @@
+{
+  "name": "writing-of-the-day",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JunilHwang/writing-of-the-day.git",
+  "author": "JunilHwang <junil.h@kakao.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "scripts": {
+    "start": "node main.js"
+  }
+}
