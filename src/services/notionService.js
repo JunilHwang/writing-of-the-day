@@ -10,5 +10,9 @@ export const notionService = {
         }
       ]
     });
+  },
+
+  async fetchContent(pageId) {
+    return notionClient.get(`/blocks/${pageId}/children?page_size=100`);
   }
 }
